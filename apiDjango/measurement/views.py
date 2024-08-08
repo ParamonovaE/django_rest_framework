@@ -8,7 +8,7 @@ class SensorListCreateView(ListCreateAPIView):
     queryset = Sensor.objects.all()
     serializer_class = SensorSerializer
 
-# Класс для обновления датчика
+# Класс для обновления датчика и получения подробной информации
 class SensorRetrieveUpdateView(RetrieveUpdateAPIView):
     queryset = Sensor.objects.all()
     serializer_class = SensorDetailSerializer
