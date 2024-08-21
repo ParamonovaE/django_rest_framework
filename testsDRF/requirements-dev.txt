@@ -1,0 +1,4 @@
+pi-r requirements.txt
+pytest
+pytest-django
+model_bakery
